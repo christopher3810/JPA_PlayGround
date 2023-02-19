@@ -1,5 +1,6 @@
-package com.jpa_playground.smy.model;
+package com.Jpa_playground.smy.model;
 
+import io.hypersistence.utils.hibernate.id.Tsid;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -9,5 +10,6 @@ import jakarta.persistence.Table;
 public class User {
 
     @Id
+    @Tsid
     private long id;
 }

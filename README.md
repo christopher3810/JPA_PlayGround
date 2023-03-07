@@ -8,4 +8,17 @@ JPA 씹고 뜯고 맛보고 즐겨보자
 This repository contains examples and lessons on writing tests for JPA/Hibernate libraries, add-ons, and features, as well as writing test code using Spring Data JPA and Querydsl features.\
 The main goal of this repository is to provide me and those who view my repository with a record and reference for learning and testing Java JPA and ORMs, as well as exploring and experimenting with new and advanced features.
 
+<br>
+
+## code demo
+***
+
+[code demo root](https://github.com/christopher3810/JPA_PlayGround/tree/master/src/main/java/com/Jpa_playground/smy)
+
 1. hypersistence-utils-hibernate-60:3.2.0 의존성 추가 및 utils 살펴보기
+2. cache 기능 체크
+
+
+<br>
+
+[test code root](https://github.com/christopher3810/JPA_PlayGround/tree/master/src/test/java/com/Jpa_playground/smy)

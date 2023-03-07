@@ -30,7 +30,7 @@ public class ITCompany extends AbstractPersistable<Long> {
     }
 
     /**
-     * Creates a new user instance.
+     * Creates a new ITCompany instance.
      */
     private ITCompany(Long id) {
         this.setId(id);

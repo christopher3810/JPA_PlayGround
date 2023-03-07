@@ -21,6 +21,6 @@ public class User {
     }
 
     @Id
-    @Tsid(CustomTsidSupplier.class)
+    @Tsid(CustomTsidSupplier.class) //Tsid test
     private long id;
 }

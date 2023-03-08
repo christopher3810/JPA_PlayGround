@@ -16,6 +16,10 @@ The main goal of this repository is to provide me and those who view my reposito
 [code demo root](https://github.com/christopher3810/JPA_PlayGround/tree/master/src/main/java/com/Jpa_playground/smy)
 
 1. hypersistence-utils-hibernate-60:3.2.0 의존성 추가 및 utils 살펴보기
+   - table pk에 활용되는 tsid
+   
+<br>
+   
 2. cache 기능 체크
 
 

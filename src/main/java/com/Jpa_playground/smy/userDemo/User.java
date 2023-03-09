@@ -1,16 +1,11 @@
-package com.Jpa_playground.smy.model;
+package com.Jpa_playground.smy.userDemo;
 
-import io.hypersistence.tsid.TSID;
 import io.hypersistence.utils.hibernate.id.Tsid;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import java.util.function.Supplier;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @Entity(name="UserInfo")
 @Table(name="userInfo")

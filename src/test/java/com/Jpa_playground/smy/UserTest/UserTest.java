@@ -1,9 +1,7 @@
 package com.Jpa_playground.smy.UserTest;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import com.Jpa_playground.smy.model.User;
-import com.Jpa_playground.smy.model.UserRepository;
+import com.Jpa_playground.smy.userDemo.User;
+import com.Jpa_playground.smy.userDemo.UserRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;

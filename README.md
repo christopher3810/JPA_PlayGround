@@ -20,7 +20,11 @@ The main goal of this repository is to provide me and those who view my reposito
    
 <br>
    
-2. cache 기능 체크
+2. Converters in Hibernate 6
+   - YesNoConverter
+   - TrueFalseConverter
+   - NumericBooleanConverter
+   - @ConverterRegistration
 
 
 <br>

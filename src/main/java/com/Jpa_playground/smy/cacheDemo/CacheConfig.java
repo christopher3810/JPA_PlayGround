@@ -1,4 +1,4 @@
-package com.Jpa_playground.smy.CacheDemo;
+package com.Jpa_playground.smy.cacheDemo;
 
 import java.util.Collections;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

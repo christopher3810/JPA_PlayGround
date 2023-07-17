@@ -1,4 +1,4 @@
-package com.Jpa_playground.smy.CacheDemo;
+package com.Jpa_playground.smy.cacheDemo;
 
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;

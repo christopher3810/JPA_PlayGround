@@ -1,4 +1,4 @@
-package com.Jpa_playground.smy.CacheDemo;
+package com.Jpa_playground.smy.cacheDemo;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

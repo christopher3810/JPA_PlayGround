@@ -1,7 +1,7 @@
-package com.Jpa_playground.smy.transactionDemo;
+package com.Jpa_playground.smy.transaction_demo;
 
-import com.Jpa_playground.smy.userDemo.User;
-import com.Jpa_playground.smy.userDemo.UserRepository;
+import com.Jpa_playground.smy.user_demo.User;
+import com.Jpa_playground.smy.user_demo.UserRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

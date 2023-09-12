@@ -1,4 +1,4 @@
-package com.Jpa_playground.smy.convertersDemo;
+package com.Jpa_playground.smy.converters_demo;
 
 import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.Jpa_playground.smy.userDemo;
+package com.Jpa_playground.smy.user_demo;
 
 import io.hypersistence.utils.hibernate.id.Tsid;
 import jakarta.persistence.Entity;

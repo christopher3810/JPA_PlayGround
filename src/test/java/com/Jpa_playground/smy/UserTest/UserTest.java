@@ -1,7 +1,7 @@
 package com.Jpa_playground.smy.UserTest;
 
-import com.Jpa_playground.smy.userDemo.User;
-import com.Jpa_playground.smy.userDemo.UserRepository;
+import com.Jpa_playground.smy.user_demo.User;
+import com.Jpa_playground.smy.user_demo.UserRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;

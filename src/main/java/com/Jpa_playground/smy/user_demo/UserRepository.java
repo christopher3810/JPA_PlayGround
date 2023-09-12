@@ -1,4 +1,4 @@
-package com.Jpa_playground.smy.userDemo;
+package com.Jpa_playground.smy.user_demo;
 
 import org.springframework.data.repository.CrudRepository;
 

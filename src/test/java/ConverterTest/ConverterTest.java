@@ -2,7 +2,7 @@ package ConverterTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.Jpa_playground.smy.convertersDemo.Question;
+import com.Jpa_playground.smy.converters_demo.Question;
 import jakarta.persistence.EntityManager;
 import java.util.UUID;
 import org.hibernate.Session;

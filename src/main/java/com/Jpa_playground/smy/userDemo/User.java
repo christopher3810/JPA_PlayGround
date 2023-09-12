@@ -13,13 +13,6 @@ import lombok.NoArgsConstructor;
 @Getter
 public class User {
 
-//    public static class CustomTsidSupplier implements Supplier<TSID.Factory>{
-//        @Override
-//        public TSID.Factory get(){
-//            return TSID.Factory.builder().withNodeBits(1).build();
-//        }
-//    }
-
     @Id @Tsid
     private Long id;
 

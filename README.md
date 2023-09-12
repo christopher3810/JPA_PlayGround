@@ -34,14 +34,20 @@ The main goal of this repository is to provide me and those who view my reposito
 
 ### podman 으로 postgresql 생성
 
-yaml 설정 값은 port 번호가 5440 이기 때문에 5440 으로 맞춰서 띄워주면 됩니다.
+> 아래 설명은 Podman 설치가 되어 있다는 가정하에 진행됨.
+
+yaml 설정 값은 port 번호가 5440 이기 때문에 5440 으로 맞춰서 띄워 주면 됨.
 
 ```bash
 podman run --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword -d -p 5440:5432 postgres
 ```
 
-Podman Container 띄운뒤 JPAPG DB를 생성해주면 됩니다.
+Podman Container 띄운뒤 JPAPG DB를 생성.
 
 ```bash
 podman exec -it my-postgres psql -U postgres -c "create database JPAPG;"
 ```
+
+#### 쉘 스크립트 실행
+
+아니면 위 명령어가 담긴 `postgresInit.sh` 스크립트를 실행.
